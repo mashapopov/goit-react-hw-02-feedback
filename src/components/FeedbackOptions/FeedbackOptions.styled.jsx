@@ -8,15 +8,17 @@ export const FeedbackList = styled.ul`
 
 export const Button = styled.button`
   font-size: 30px;
-  background-color: transparent;
-  border: 1px solid hsla(210, 18%, 87%, 2);
+  background-color: #add8e6;
+  border: 1px solid #add8e6;
   border-radius: 12px;
   text-transform: capitalize;
   transition: 200ms;
   :active {
     background-color: blue;
+    color: white;
   }
   :hover {
     background-color: blue;
+    color: white;
   }
 `;
